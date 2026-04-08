@@ -4,8 +4,8 @@ from sklearn.linear_model import LinearRegression
 import mlflow
 import mlflow.sklearn
 
-# ✅ FIXED HERE (H capital)
-df = pd.read_csv("data/Housing.csv")
+# ✅ FIXED HERE (h small typo in "housing.csv" and added missing import statements)
+df = pd.read_csv("data/housing.csv")
 df = df.dropna()
 
 X = df[['area', 'bedrooms']]
