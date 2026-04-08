@@ -5,7 +5,7 @@ import mlflow
 import mlflow.sklearn
 
 # ✅ FIXED HERE (h small typo in "housing.csv" and added missing import statements)
-df = pd.read_csv("data/housing.csv")
+df = pd.read_csv("data/Housing.csv")
 df = df.dropna()
 
 X = df[['area', 'bedrooms']]
